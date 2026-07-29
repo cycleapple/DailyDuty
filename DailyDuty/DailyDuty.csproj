@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Dalamud.NET.Sdk/13.0.0">
     <PropertyGroup>
         <PackageProjectUrl>https://github.com/cycleapple/DailyDuty</PackageProjectUrl>
-        <Version>5.3.2.13</Version>
+        <Version>5.3.2.14</Version>
     </PropertyGroup>
 
     <ItemGroup>
