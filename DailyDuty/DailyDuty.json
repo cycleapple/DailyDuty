@@ -5,6 +5,6 @@
   "Description": "Automatically track and complete many daily and weekly tasks.",
   "Tags": [    "utility", "gil", "tasks", "dailies", "tracking", "todo"   ],
   "InternalName": "dailyduty",
-  "RepoUrl": "https://github.com/MidoriKami/DailyDuty",
+  "RepoUrl": "https://github.com/cycleapple/DailyDuty",
   "AcceptsFeedback": false
 }
