@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -71,8 +71,8 @@ public class LuminaTaskConfigList<T> : ICollection<LuminaTaskConfig<T>> where T 
 	private bool DrawContentsNoteConfig() {
 		var result = false;
 		
-		foreach (var category in Service.DataManager.GetExcelSheet<ContentsNoteCategory>().Where(category => category.Unknown0.ToString() != string.Empty)) {
-			if (ImGui.CollapsingHeader(category.Unknown0.ToString())) {
+		foreach (var category in Service.DataManager.GetExcelSheet<ContentsNoteCategory>().Where(category => category.Name.ToString() != string.Empty)) {
+			if (ImGui.CollapsingHeader(category.Name.ToString())) {
 				using var indent = ImRaii.PushIndent();
 				
 				foreach (var option in ConfigList) {

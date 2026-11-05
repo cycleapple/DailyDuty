@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.Text.SeStringHandling;
@@ -78,7 +78,7 @@ public unsafe class PayloadController : IDisposable {
         },
         PayloadId.OpenDutyFinderAllianceRaid => (_, _) => {
             var currentAllianceRaid = Service.DataManager.GetExcelSheet<ContentFinderCondition>()
-                .Where(cfc => cfc.ContentType.RowId is 5 && cfc is { Unknown33: 0, Unknown28: true })
+                .Where(cfc => cfc.ContentType.RowId is 5 && cfc is { RequiredExVersion: { RowId: 0 }, Unknown28: true })
                 .Last();
 
             AgentContentsFinder.Instance()->OpenRegularDuty(currentAllianceRaid.RowId);

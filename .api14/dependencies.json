@@ -1,0 +1,14 @@
+[
+  {
+    "path": "KamiLib",
+    "baseCommit": "0996691fc1a722ef5044df8f9b8fe0d8f92c24f4",
+    "patch": "patches/3f2af90b9e375b33.patch",
+    "sha256": "55f27f0c034296a9134fe5ee2b24132140a46fe09c77125232273ad2b1fee8b5"
+  },
+  {
+    "path": "KamiToolKit",
+    "baseCommit": "b2327a0b80e93b8e3e054b52f225bab015ab03af",
+    "patch": "patches/12ca56efda7ccaee.patch",
+    "sha256": "9abe5a844c0f63a219829421a473e08ad62e4f859cd3364c23b9d2473e1894b4"
+  }
+]
